@@ -63,6 +63,19 @@ for all supported compilers on Windows and macOS.
 See the [compilation guide](https://www.glfw.org/docs/latest/compile.html) for
 more information about how to compile GLFW yourself.
 
+## Compiling the static library and the shared library using CB
+
+On Windows
+```
+cl.exe cb.c
+cb.exe
+```
+
+On Linux:
+```
+cc cb.c -o cb.a
+./cb.a
+```
 
 ## Using GLFW
 

@@ -1,3 +1,6 @@
+# build directory used by cb build system
+.build/
+
 # The canonical out-of-tree build subdirectory
 build
 build-*
